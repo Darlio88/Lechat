@@ -17,7 +17,7 @@ const Index = () => {
     <ChatHeaderContainer >
       <UpperChatHeader>
         <HeaderTitle>Chats</HeaderTitle>
-        <EditIcon><AiOutlinePlus /></EditIcon>
+        <EditIcon><AiOutlinePlus color='white'/></EditIcon>
       </UpperChatHeader>
       <BottomChatHeader>
         <Input placeholder='Search here...' />

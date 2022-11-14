@@ -19,6 +19,19 @@ const Index = () => {
       <SingleChatItem />
       <SingleChatItem />
       
+      {/* added */}
+      <SingleChatItem />
+      <SingleChatItem />
+      <SingleChatItem />
+      <SingleChatItem />
+      <SingleChatItem />
+
+      {/* added two */}
+      <SingleChatItem />
+      <SingleChatItem />
+      <SingleChatItem />
+      <SingleChatItem />
+      <SingleChatItem />
     </ChatsContainer>
   )
 }

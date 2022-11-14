@@ -3,12 +3,13 @@ import tw from "twin.macro"
 
 export const ChatHeaderContainer = styled.div`
 z-index:10;
+background-color:"white";
 ${tw`absolute top-0 left-0 right-0 px-4 py-2`}
 `
 
 
 export const UpperChatHeader = styled.div`
-${tw`flex justify-between items-center text-xl font-bold mb-2 `}
+${tw`flex justify-between items-center text-xl font-bold mb-3 `}
 `
 
 export const HeaderTitle = styled.h3`

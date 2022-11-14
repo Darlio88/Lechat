@@ -4,9 +4,17 @@ import tw from "twin.macro"
 
 export const ChatAreaContainer = styled.div`
 flex:8;
+
 ${tw`hidden lg:flex lg:h-screen relative`}
 `
-
+export const ChatAreaContent = styled.div`
+max-height:100%;
+min-height:100%;
+min-width:100%;
+overflow-x: hidden;
+overflow-y:auto;
+${tw`space-y-10 py-16`}
+`
 export const HeaderContainer = styled.div`
 top:0;
 left:0;

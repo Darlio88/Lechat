@@ -14,6 +14,7 @@ const index = () => {
   return (
     <ChatContainer style={{ backgroundColor:colors.black,color:'gray'}}>
         <ChatHeader />
+        
         <Chats />
     </ChatContainer>
   )

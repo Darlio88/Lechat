@@ -23,7 +23,9 @@ const Index = () => {
       <AiOutlineMessage />
       <RiContactsLine />
       <BsTelephone />
-      <BsGear />
+      <div></div>
+      <div></div>
+      <div></div>
       </NavLinksContainer>
       {/* profile details */}
       <ProfileIcon>

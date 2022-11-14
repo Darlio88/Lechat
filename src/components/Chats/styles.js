@@ -4,7 +4,11 @@ import tw from "twin.macro"
 export const ChatsContainer = styled.div`
 
 padding-top: 7rem;
-
+max-height:100vh;
+min-height:100vh;
+overflow-x: hidden;
+overflow-y:auto;
+z-index:-10;
 ${tw`h-full px-4 space-y-3`}
 `
 
@@ -38,7 +42,7 @@ display:block;
 `
 
 export const ChatItemContainer = styled.div`
-
+z-index:-10;
 
 ${tw`flex justify-between items-center w-full`}
 `
